@@ -9,7 +9,7 @@ Displays Agents, Queues, Dispatches, Lanes information when executing GPU code w
 ## Usage requirements
 
 You need a [ROCm environment](https://github.com/RadeonOpenCompute/ROCm) with [ROCgdb](https://github.com/ROCm-Developer-Tools/ROCgdb) already installed.
-In order to run this plugin, you will also need either [Visual Studio Code](https://github.com/Microsoft/vscode) or [Theia IDE](https://github.com/eclipse-theia/theia) with debugger support and vscode plugin support.
+In order to run this plugin, you will also need either [Visual Studio Code](https://github.com/Microsoft/vscode) or [Theia IDE](https://github.com/eclipse-theia/theia) with [debugger support](https://www.npmjs.com/package/@theia/debug) and [vscode plugin support](https://www.npmjs.com/package/@theia/plugin-ext-vscode).
 
 ## Usage instructions
 
@@ -18,7 +18,8 @@ Then from Visual Studio Code or Theia interface:
 2. Extensions (Ctrl+Shift+X)
 3. `...` in the upper right hand corner
 4. `Install from VSIX...`
-5. Select the VSIX in the file explorer
+![vsix_install](https://user-images.githubusercontent.com/62610907/150175031-13df67bc-5105-4036-93cc-6f053495303a.gif)
+6. Select the VSIX in the file explorer
 
 ## Compile requirements
 
