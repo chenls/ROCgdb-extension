@@ -31,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: vsix
-        path: ROCgdb-extension/rocgdb-extension-0.1.0.vsix
+        path: /home/runner/work/ROCgdb-extension/ROCgdb-extension/rocgdb-extension-0.1.0.vsix
