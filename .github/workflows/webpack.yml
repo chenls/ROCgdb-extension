@@ -27,8 +27,8 @@ jobs:
         npm install
         npm install -g @vscode/vsce
         vsce package
-    - name: Archive code coverage results
-      uses: actions/upload-artifact@v3
+    - name: Archive rocgdb-extension-0.1.0.vsix
+      uses: actions/upload-artifact@v2
       with:
-        name: vsix
+        name: rocgdb-extension-0.1.0.vsix
         path: /home/runner/work/ROCgdb-extension/ROCgdb-extension/rocgdb-extension-0.1.0.vsix
